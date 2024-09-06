@@ -1,0 +1,102 @@
+/******* Start Header *******/
+header {
+  background-image: url("../../public/images/desktop/image-header.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+/*** Header Nav ***/
+.header .navbar .navbar-collapse .navbar-nav .nav-item .nav-link {
+  color: white;
+  border-radius: 20px;
+  padding: 8px 20px;
+}
+.header .navbar .navbar-collapse .navbar-nav .nav-item:hover .nav-link {
+  color: black;
+  background-color: white;
+  transition: 0.3s;
+}
+/***** Start Header Info *****/
+.header-info {
+  text-align: center;
+  transform: translateY(140%);
+}
+.header-info h1 {
+  color: white;
+  font-weight: bold;
+  font-size: 68px;
+}
+/***** Start Responsive Header Info *****/
+@media (max-width: 992px) {
+  .header-info {
+    transform: translateY(185%);
+  }
+  .header-info h1 {
+    font-size: 48px;
+  }
+}
+@media (max-width: 576px) {
+  .header-info {
+    transform: translateY(205%);
+  }
+  .header-info h1 {
+    font-size: 38px;
+  }
+}
+@media (max-width: 576px) {
+  .header-info {
+    transform: translateY(230%);
+  }
+  .header-info h1 {
+    font-size: 28px;
+  }
+}
+@media (max-width: 346px) {
+    .header-info {
+      transform: translateY(250%);
+    }
+    .header-info h1 {
+      font-size: 20px;
+    }
+  }
+/***** End Responsive Header Info *****/
+/***** End Header Info *****/
+/******* End Header *******/
+/******* Start Main *******/
+.container-fluid .row:nth-child(3) .col-12:nth-child(1) {
+  background-image: url("../../public/images/desktop/image-graphic-design.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  aspect-ratio: 1.2;
+}
+.container-fluid .row:nth-child(3) .col-12:nth-child(2) {
+  background-image: url("../../public/images/desktop/image-photography.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  aspect-ratio: 1.2;
+}
+.container .profile-card img {
+  max-width: 80px;
+  max-height: 80px;
+}
+/******* End Main *******/
+/******* Start Footer *******/
+footer {
+  background-color: #90d4c5;
+}
+.text-green {
+  color: #2e7467;
+}
+footer .footer-links .link-item:hover a {
+  color: white;
+  transition: 0.3s;
+}
+footer .footer-social svg:hover path {
+  transition: 0.3s;
+  fill: white;
+  cursor: pointer;
+}
+/******* End Footer *******/
