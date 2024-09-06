@@ -1,5 +1,5 @@
 # Preview
-![Project preview](./preview-design/preview-5.gif "Project Preview")
+![Project preview](./preview-design/preview-6.gif "Project Preview")
 
 # Suunyside Project
 This project is designed to Suunyside.
